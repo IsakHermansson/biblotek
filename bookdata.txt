@@ -1,0 +1,7 @@
+#Boknummer|Titel|Författare|Ämne|ISBN
+1	Röda rummet	August Strindberg	Skönlitteratur	9789127052291
+2	Pippi Långstrump	Astrid Lindgren	Skönlitteratur	9788893080859
+3	Harry Potter och de vises sten	J.K Rowling	Skönlitteratur	9780606323451
+4	Bröderna Lejonhjärta	Astrid Lindgren	Skönlitteratur	9789129688313
+5	Madicken	Astrid Lindgren	Skönlitteratur	9788426117298
+6	Ronja Rövardotter	Astrid Lindgren	Skönlitteratur	9788426120885

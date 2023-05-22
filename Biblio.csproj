@@ -1,0 +1,120 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0D3EBFD3-B3BD-4670-9300-063B8A8F9622}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Biblio</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\Biblio\FileContentIndex\f021c555-2b85-4c92-899e-f93563480152.vsidx" />
+    <None Include=".vs\Biblio\FileContentIndex\read.lock" />
+    <None Include=".vs\Biblio\v17\.suo" />
+    <None Include=".vs\ConsoleApp1\FileContentIndex\673ba02c-a9a3-4756-81ea-372b3cc25d76.vsidx" />
+    <None Include=".vs\ConsoleApp1\FileContentIndex\8a44ac1c-761a-4537-86be-a538a7089acc.vsidx" />
+    <None Include=".vs\ConsoleApp1\FileContentIndex\aeb2278f-7ea6-4e39-bd6b-ced46eeb2b04.vsidx" />
+    <None Include=".vs\ConsoleApp1\FileContentIndex\f50aa1c1-3398-49c1-bb1f-70386b3b1baa.vsidx" />
+    <None Include=".vs\ConsoleApp1\FileContentIndex\read.lock" />
+    <None Include=".vs\ConsoleApp1\v17\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="packages\Microsoft.IdentityModel.Logging.1.1.2\.signature.p7s" />
+    <None Include="packages\Microsoft.IdentityModel.Logging.1.1.2\Microsoft.IdentityModel.Logging.1.1.2.nupkg" />
+    <None Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\.signature.p7s" />
+    <None Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\Microsoft.IdentityModel.Tokens.5.1.2.nupkg" />
+    <None Include="packages\Newtonsoft.Json.13.0.1\.signature.p7s" />
+    <None Include="packages\Newtonsoft.Json.13.0.1\LICENSE.md" />
+    <None Include="packages\Newtonsoft.Json.13.0.1\Newtonsoft.Json.13.0.1.nupkg" />
+    <None Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\.signature.p7s" />
+    <None Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\System.IdentityModel.Tokens.Jwt.5.1.2.nupkg" />
+    <None Include="packages\Twilio.6.6.0\.signature.p7s" />
+    <None Include="packages\Twilio.6.6.0\Twilio.6.6.0.nupkg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages\Microsoft.IdentityModel.Logging.1.1.2\lib\net451\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Logging.1.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Logging.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\net451\Microsoft.IdentityModel.Tokens.xml" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.dll" />
+    <Content Include="packages\Microsoft.IdentityModel.Tokens.5.1.2\lib\netstandard1.4\Microsoft.IdentityModel.Tokens.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net20\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net35\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net40\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard1.0\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard1.3\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.dll" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\lib\netstandard2.0\Newtonsoft.Json.xml" />
+    <Content Include="packages\Newtonsoft.Json.13.0.1\packageIcon.png" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\net451\System.IdentityModel.Tokens.Jwt.xml" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.dll" />
+    <Content Include="packages\System.IdentityModel.Tokens.Jwt.5.1.2\lib\netstandard1.4\System.IdentityModel.Tokens.Jwt.xml" />
+    <Content Include="packages\Twilio.6.6.0\lib\net35\Twilio.dll" />
+    <Content Include="packages\Twilio.6.6.0\lib\net35\Twilio.xml" />
+    <Content Include="packages\Twilio.6.6.0\lib\net451\Twilio.dll" />
+    <Content Include="packages\Twilio.6.6.0\lib\net451\Twilio.xml" />
+    <Content Include="packages\Twilio.6.6.0\lib\netstandard1.4\Twilio.dll" />
+    <Content Include="packages\Twilio.6.6.0\lib\netstandard1.4\Twilio.xml" />
+    <Content Include="packages\Twilio.6.6.0\lib\netstandard2.0\Twilio.dll" />
+    <Content Include="packages\Twilio.6.6.0\lib\netstandard2.0\Twilio.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Biblio\FileContentIndex\merges\" />
+    <Folder Include=".vs\ConsoleApp1\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
